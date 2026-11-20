@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Simran Kaur – Platform Engineer</title>
+<meta name="description" content="Simran Kaur, platform engineer with 3+ years at SAP building on SAP BTP, CAP and delivery automation.">
+<meta name="theme-color" content="#07070b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+:root{--a:#8b5cf6;--a2:#c4b5fd;--bg:#07070b;--ink:#ece9f6;--mu:#9a96ab;--ln:#ffffff17;--d:'Syne','Segoe UI',sans-serif;--b:'Outfit','Segoe UI',sans-serif;--p:0}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{background:var(--bg);color:var(--ink);font:300 1.05rem/1.7 var(--b);overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:radial-gradient(60vw 50vh at 12% 8%,color-mix(in srgb,var(--a) 30%,transparent),transparent),radial-gradient(50vw 50vh at 92% 45%,#1d1457aa,transparent),radial-gradient(55vw 40vh at 30% 100%,color-mix(in srgb,var(--a) 18%,transparent),transparent)}
+body::after{content:"";position:fixed;inset:0;z-index:120;pointer-events:none;opacity:.09;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible{outline:2px solid var(--a2);outline-offset:3px}
+h1,h2,h3{font-family:var(--d);line-height:1}
+.w{max-width:1120px;margin:0 auto;padding:0 1.25rem}
+section{padding:5.5rem 0}
+.eb{font:500 .8rem var(--b);letter-spacing:.22em;text-transform:uppercase;color:var(--a2);margin-bottom:1rem}
+h2{font-size:clamp(2rem,6vw,3.4rem);font-weight:800;letter-spacing:-.02em;margin-bottom:2.2rem}
+
+/* progress */
+#pt,#pv{position:fixed;z-index:150;background:linear-gradient(90deg,var(--a),var(--a2))}
+#pt{top:0;left:0;height:3px;width:calc(var(--p)*100%)}
+#pv{top:0;right:0;width:3px;height:calc(var(--p)*100%);background:linear-gradient(180deg,var(--a),var(--a2))}
+#pt i,#pv i{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--a2);box-shadow:0 0 12px 3px var(--a)}
+#pt i{right:-4px;top:-3px}#pv i{bottom:-4px;right:-3px}
+@media(max-width:759px){#pv{display:none}}
+
+/* nav */
+nav{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:140;width:min(1120px,calc(100% - 1.5rem));display:flex;justify-content:space-between;align-items:center;padding:.5rem .6rem .5rem 1.1rem;border:1px solid var(--ln);border-radius:99px;background:#0b0b12aa;backdrop-filter:blur(14px)}
+.logo{background:none;border:0;color:var(--ink);font:800 1.2rem var(--d);cursor:pointer}
+.logo span{color:var(--a)}
+.nl{display:flex;gap:.2rem;font-size:.9rem}
+.nl a{padding:.35rem .8rem;border-radius:99px;color:var(--mu);transition:.25s}
+.nl a:hover,.nl a.on{color:var(--ink);background:color-mix(in srgb,var(--a) 25%,transparent)}
+.nl a:not(.k){display:none}
+@media(min-width:900px){.nl a:not(.k){display:block}}
+#tl{position:fixed;top:70px;left:50%;transform:translate(-50%,-10px);z-index:145;padding:.35rem 1rem;border-radius:99px;background:var(--a);color:#fff;font-size:.85rem;opacity:0;pointer-events:none;transition:.3s}
+#tl.s{opacity:1;transform:translate(-50%,0)}
+
+/* hero */
+#home{position:relative;min-height:100svh;display:flex;align-items:flex-end;padding:7rem 0 4rem;overflow:hidden}
+#cv{position:absolute;inset:0;width:100%;height:100%;z-index:-1}
+.rise{opacity:0;transform:translateY(30px);animation:up .9s cubic-bezier(.2,.7,.2,1) forwards;animation-delay:calc(var(--i)*.11s + .1s)}
+@keyframes up{to{opacity:1;transform:none}}
+.tr{display:flex;align-items:center;gap:1rem;margin-bottom:1.4rem;font-size:1.05rem;letter-spacing:.14em;text-transform:uppercase;color:var(--a2)}
+.av{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;font:800 1.1rem var(--d);color:#fff;background:linear-gradient(135deg,var(--a),#2a1a6e);box-shadow:0 0 0 1px var(--ln),0 0 28px color-mix(in srgb,var(--a) 55%,transparent)}
+h1{font-weight:800;font-size:clamp(4rem,19vw,12rem);letter-spacing:-.045em;line-height:.86}
+h1 span{display:block}
+h1 .l2{background:linear-gradient(90deg,var(--ink),var(--a2));-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(min-width:760px){h1 .l2{margin-left:1.2em}}
+.vp{max-width:36ch;margin:2rem 0;font-size:1.25rem;color:#d6d2e6}
+.bt{display:flex;flex-wrap:wrap;gap:.9rem}
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.85rem 1.5rem;border-radius:99px;font-weight:500;border:1px solid color-mix(in srgb,var(--a) 70%,transparent);transition:transform .25s,box-shadow .3s,background .3s;will-change:transform}
+.btn.p{background:var(--a);color:#fff;box-shadow:0 0 30px color-mix(in srgb,var(--a) 45%,transparent)}
+.btn:hover{box-shadow:0 0 40px color-mix(in srgb,var(--a) 60%,transparent)}
+.btn:not(.p):hover{background:color-mix(in srgb,var(--a) 20%,transparent)}
+
+/* marquee */
+.mq{overflow:hidden;border-block:1px solid var(--ln);padding:1.1rem 0;background:#ffffff05}
+.mq div{display:flex;gap:2.6rem;width:max-content;animation:mq 34s linear infinite;font:800 1.5rem var(--d);color:var(--mu)}
+.mq div span::after{content:"✦";margin-left:2.6rem;color:var(--a)}
+.mq:hover div{animation-play-state:paused}.mq span:hover{color:var(--a2)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* bento */
+.g{display:grid;gap:1rem;grid-template-columns:1fr}
+@media(min-width:620px){.g{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:960px){.g{grid-template-columns:repeat(4,1fr)}.s2{grid-column:span 2}.r2{grid-row:span 2}}
+.cell{position:relative;overflow:hidden;padding:1.5rem;border:1px solid var(--ln);border-radius:22px;background:linear-gradient(160deg,#ffffff0b,#ffffff03);transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .25s,border-color .3s;will-change:transform}
+.cell::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(280px circle at var(--mx,50%) var(--my,50%),color-mix(in srgb,var(--a) 32%,transparent),transparent 70%)}
+.cell:hover::before{opacity:1}.cell:hover{border-color:color-mix(in srgb,var(--a) 65%,transparent)}
+.cell>*{position:relative}
+.bio{font-size:1.2rem;color:#d6d2e6}.bio p+p{margin-top:1rem}
+.st{display:flex;flex-direction:column;justify-content:flex-end;min-height:150px}
+.num{font:800 clamp(2.8rem,6vw,4rem) var(--d);color:var(--a2);line-height:1}
+.st small{color:var(--mu);font-size:.95rem;margin-top:.4rem}
+.cell h3{font-size:1.05rem;margin-bottom:1rem;letter-spacing:.04em;color:var(--a2)}
+.tg{display:inline-block;margin:0 .35rem .45rem 0;padding:.2rem .75rem;border:1px solid var(--ln);border-radius:99px;font-size:.88rem;background:#ffffff06;transition:.25s}
+.tg:hover{border-color:var(--a);color:var(--a2)}
+
+/* projects */
+.pg{display:grid;gap:1rem}
+@media(min-width:760px){.pg{grid-template-columns:repeat(2,1fr)}.pg .cell:last-child{grid-column:span 2}}
+.ix{font:800 3rem var(--d);color:transparent;-webkit-text-stroke:1px var(--a);margin-bottom:.8rem}
+.pg h3{font-size:1.5rem;margin-bottom:.7rem;color:var(--ink);letter-spacing:0}
+.pg p{color:var(--mu);margin-bottom:1rem}
+
+/* timeline */
+.tm{border-left:1px solid var(--ln);margin-left:.4rem;padding-left:1.6rem}
+.it{position:relative;padding-bottom:2.8rem}
+.it::before{content:"";position:absolute;left:-1.6rem;top:.5rem;width:11px;height:11px;transform:translateX(-50%);border-radius:50%;background:var(--a);box-shadow:0 0 14px 3px var(--a)}
+.it h3{font-size:1.4rem;line-height:1.2;margin-bottom:.4rem}
+.it .m{color:var(--a2);font-size:.95rem;margin-bottom:.8rem}
+.it ul{padding-left:1.1rem;color:#cfcbe0;max-width:70ch}.it li{margin-bottom:.45rem}.it li::marker{color:var(--a)}
+
+/* edu */
+.ed{display:grid;gap:2.5rem}
+@media(min-width:760px){.ed{grid-template-columns:1fr 1fr;gap:4rem}}
+.ed h3{font-size:1.1rem;color:var(--a2);margin-bottom:1.2rem;letter-spacing:.06em}
+.ed ul{padding:0}
+.ed li{list-style:none;padding:1rem 0;border-top:1px solid var(--ln)}
+.ed li b{font-weight:500;display:block}.ed li span{color:var(--mu);font-size:.95rem}
+.ed a{display:flex;justify-content:space-between;gap:1rem;align-items:center}.ed a:hover{color:var(--a2)}
+
+/* closer */
+#contact{text-align:center;position:relative}
+#contact::before{content:"";position:absolute;left:50%;top:50%;width:min(700px,90vw);height:420px;transform:translate(-50%,-50%);background:radial-gradient(closest-side,color-mix(in srgb,var(--a) 38%,transparent),transparent);z-index:-1}
+#contact h2{font-size:clamp(2.4rem,8vw,5.5rem);max-width:14ch;margin:0 auto 1.2rem;letter-spacing:-.03em}
+#contact p.sub{color:var(--mu);margin-bottom:2rem}
+.so{display:flex;justify-content:center;gap:.8rem;margin-top:1.8rem}
+.so a{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;border:1px solid var(--ln);transition:.25s}
+.so a:hover{border-color:var(--a);color:var(--a2);box-shadow:0 0 22px color-mix(in srgb,var(--a) 50%,transparent)}
+footer{padding:2rem 0 3rem;text-align:center;color:var(--mu);font-size:.85rem;border-top:1px solid var(--ln)}
+footer em{font-style:normal;opacity:.55;display:block;margin-top:.3rem}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s cubic-bezier(.2,.7,.2,1);transition-delay:calc(var(--i,0)*.08s)}
+.rv.on{opacity:1;transform:none}
+.cell.rv.on{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+
+/* cursor */
+#cd,#cr{position:fixed;top:0;left:0;z-index:200;pointer-events:none;border-radius:50%;display:none}
+#cd{width:7px;height:7px;margin:-3.5px;background:var(--a2)}
+#cr{width:36px;height:36px;margin:-18px;border:1px solid var(--a);transition:width .25s,height .25s,margin .25s,background .25s}
+#cr.h{width:64px;height:64px;margin:-32px;background:color-mix(in srgb,var(--a) 18%,transparent)}
+.fine #cd,.fine #cr{display:block}.fine,.fine a,.fine button{cursor:none}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rise,.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="pt"><i></i></div><div id="pv"><i></i></div>
+<div id="cd"></div><div id="cr"></div><div id="tl" role="status"></div>
+
+<nav>
+  <button class="logo" id="logo" aria-label="Change accent colour">SK<span>.</span></button>
+  <div class="nl">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a class="k" href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header id="home">
+  <canvas id="cv" aria-hidden="true"></canvas>
+  <div class="w">
+    <div class="tr rise" style="--i:0"><div class="av" aria-hidden="true">SK</div><span id="scr" data-t="Platform Engineer">Platform Engineer</span></div>
+    <h1><span class="rise" style="--i:1">Simran</span><span class="l2 rise" style="--i:2">Kaur</span></h1>
+    <p class="vp rise" style="--i:3">Software developer with 3+ years at SAP, building scalable, secure cloud applications and delivery pipelines on SAP BTP.</p>
+    <div class="bt rise" style="--i:4">
+      <a class="btn p mag" href="#projects">View my work <i class="fa-solid fa-arrow-down"></i></a>
+      <a class="btn mag" href="mailto:ksimran0803@gmail.com">Get in touch <i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</header>
+
+<div class="mq" aria-label="Skills"><div id="mq">
+  <span>SAP BTP</span><span>CAP</span><span>SAPUI5</span><span>Node.js</span><span>SAP HANA</span><span>Python</span><span>Java</span><span>REST APIs</span><span>CI/CD</span><span>AWS S3</span><span>Linux CLI</span><span>Git</span>
+</div></div>
+
+<section id="about"><div class="w">
+  <p class="eb rv">About</p><h2 class="rv">Built to ship, and to last.</h2>
+  <div class="g">
+    <div class="cell tilt s2 r2 rv bio">
+      <p>I'm a software developer with 3+ years at SAP, working on SAP BTP, the CAP framework and delivery automation.</p>
+      <p>I've led an end-to-end migration, built enterprise applications from scratch and designed cloud pipelines. I learn quickly, make decisions with care, and aim for solutions that are scalable, secure and genuinely useful.</p>
+    </div>
+    <div class="cell tilt st rv" style="--i:1"><div class="num" data-to="3" data-suf="+">0</div><small>years at SAP</small></div>
+    <div class="cell tilt st rv" style="--i:2"><div class="num" data-to="1">0</div><small>end-to-end migration led, .NET to SAP BTP</small></div>
+    <div class="cell tilt st rv" style="--i:3"><div class="num" data-to="8.12" data-dec="2">0</div><small>CGPA, B.Tech</small></div>
+    <div class="cell tilt st rv" style="--i:4"><div class="num" data-to="3">0</div><small>certificates</small></div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="w">
+  <p class="eb rv">Skills</p><h2 class="rv">The toolkit.</h2>
+  <div class="g">
+    <div class="cell tilt s2 rv"><h3>Platform</h3><span class="tg">SAP BTP (PaaS)</span><span class="tg">CAP Framework</span></div>
+    <div class="cell tilt rv" style="--i:1"><h3>Frontend</h3><span class="tg">SAPUI5</span><span class="tg">HTML</span><span class="tg">CSS</span></div>
+    <div class="cell tilt rv" style="--i:2"><h3>Backend</h3><span class="tg">JavaScript</span><span class="tg">Node.js</span><span class="tg">REST APIs</span></div>
+    <div class="cell tilt rv" style="--i:3"><h3>Languages</h3><span class="tg">Python</span><span class="tg">Java</span><span class="tg">VB.NET</span><span class="tg">C++</span></div>
+    <div class="cell tilt rv" style="--i:4"><h3>Database</h3><span class="tg">SAP HANA</span></div>
+    <div class="cell tilt s2 rv" style="--i:5"><h3>DevOps</h3><span class="tg">Git</span><span class="tg">Linux CLI</span><span class="tg">CI/CD</span><span class="tg">AWS S3</span></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="w">
+  <p class="eb rv">Projects</p><h2 class="rv">Selected work.</h2>
+  <div class="pg">
+    <article class="cell tilt rv"><div class="ix">01</div><h3>FEX Migration</h3><p>Led the end-to-end move of the FEX application from .NET to SAP BTP (CAP): architecture design, backend APIs, database migration and UI deployment.</p><span class="tg">SAP BTP</span><span class="tg">CAP</span><span class="tg">Node.js</span><span class="tg">SAPUI5</span><span class="tg">SAP HANA</span></article>
+    <article class="cell tilt rv" style="--i:1"><div class="ix">02</div><h3>ABE Metrics</h3><p>Built from scratch: HANA queries, UI mockups driven by stakeholders, and interactive charts.</p><span class="tg">SAP HANA</span><span class="tg">SAPUI5</span><span class="tg">JavaScript</span></article>
+    <article class="cell tilt rv"><div class="ix">03</div><h3>S3 Delivery Storage</h3><p>Integrated AWS S3 object storage into the delivery pipeline, with checksum validation and automated file management.</p><span class="tg">AWS S3</span><span class="tg">CI/CD</span></article>
+    <article class="cell tilt rv" style="--i:1"><div class="ix">04</div><h3>ADB Delivery Automation</h3><p>Resolved critical failures across internal and external deliveries, build triggers, SBOM-to-DMS uploads and production infrastructure issues.</p><span class="tg">CI/CD</span><span class="tg">Linux CLI</span></article>
+    <article class="cell tilt rv"><div class="ix">05</div><h3>Build Integration Utility</h3><p>A C++ system utility, written at Samsung R&amp;D, that automates feature integration into build pipelines and cuts manual configuration steps.</p><span class="tg">C++</span><span class="tg">Linux CLI</span></article>
+  </div>
+</div></section>
+
+<section id="experience"><div class="w">
+  <p class="eb rv">Experience</p><h2 class="rv">Where I've worked.</h2>
+  <div class="tm">
+    <div class="it rv"><h3>Software Developer, SAP BTP &amp; Delivery Automation</h3><p class="m">SAP · 2023 – Present</p>
+      <ul>
+        <li>Led the end-to-end migration of the FEX application from .NET to SAP BTP (CAP) using Node.js, SAPUI5 and SAP HANA.</li>
+        <li>Built the ABE Metrics application from scratch, from HANA queries to stakeholder-driven mockups and interactive charts.</li>
+        <li>Integrated AWS S3 into the delivery pipeline and fixed critical failures in the ADB delivery automation system.</li>
+      </ul></div>
+    <div class="it rv"><h3>Intern</h3><p class="m">Samsung R&amp;D Institute Bangalore</p>
+      <ul>
+        <li>Developed a C++ system utility that automates feature integration into build pipelines, reducing manual configuration steps.</li>
+        <li>Used Linux CLI tools (grep, sed, awk) for system-level debugging, log analysis and runtime diagnostics.</li>
+      </ul></div>
+  </div>
+</div></section>
+
+<section id="education"><div class="w">
+  <p class="eb rv">Education &amp; Certifications</p><h2 class="rv">Foundations.</h2>
+  <div class="ed">
+    <div class="rv"><h3>EDUCATION</h3><ul><li><b>B.Tech</b><span>Indira Gandhi Delhi Technical University for Women, Delhi · 2019 – 2023 · CGPA 8.12</span></li></ul></div>
+    <div class="rv" style="--i:1"><h3>CERTIFICATIONS</h3><ul>
+      <li><a href="https://www.credly.com/badges/45a16bfa-107a-4c5b-972e-e553eb8d101d/linked_in_profile" target="_blank" rel="noopener"><b>SAP Cloud Application Programming (CAP)</b><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      <li><a href="https://drive.google.com/file/d/1E2sQeLmztRCgQAMLDAROKIT0qK91MCkR/view" target="_blank" rel="noopener"><b>Machine Learning with Python</b><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+      <li><a href="https://drive.google.com/file/d/158qOrLDaNOJLoVh8jooyUg1I-P8wBVu/view?usp=sharing" target="_blank" rel="noopener"><b>Internship Certificate, Samsung</b><i class="fa-solid fa-arrow-up-right-from-square"></i></a></li>
+    </ul></div>
+  </div>
+</div></section>
+
+<section id="contact"><div class="w">
+  <p class="eb rv">Contact</p>
+  <h2 class="rv">Have a platform to migrate or a pipeline to fix?</h2>
+  <p class="sub rv">Let's talk.</p>
+  <a class="btn p mag rv" href="mailto:ksimran0803@gmail.com"><i class="fa-solid fa-envelope"></i> ksimran0803@gmail.com</a>
+  <div class="so rv">
+    <a href="https://www.linkedin.com/in/simran-kaur-6878801a1" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://github.com/SimranKaur-08/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+    <a href="mailto:ksimran0803@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+</div></section>
+
+<footer>&copy; <span id="yr"></span> Simran Kaur<em>Psst: try clicking the logo.</em></footer>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],R=document.documentElement;
+const fine=matchMedia('(hover:hover) and (pointer:fine)').matches,calm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+$('#yr').textContent=new Date().getFullYear();
+$('#mq').innerHTML+=$('#mq').innerHTML;
+if(fine)R.classList.add('fine');
+
+/* accent themes (easter egg) */
+const TH=[['#8b5cf6','#c4b5fd','Violet'],['#22d3ee','#a5f3fc','Cyan'],['#f472b6','#fbcfe8','Rose'],['#a3e635','#d9f99d','Lime'],['#fb923c','#fed7aa','Amber']];
+let ti=0,ac='#8b5cf6',tt;
+$('#logo').onclick=()=>{ti=(ti+1)%TH.length;const[t,u,n]=TH[ti];R.style.setProperty('--a',t);R.style.setProperty('--a2',u);ac=t;
+  const l=$('#tl');l.textContent=n+' mode';l.classList.add('s');clearTimeout(tt);tt=setTimeout(()=>l.classList.remove('s'),1400)};
+
+/* scroll progress */
+let tk=0;
+addEventListener('scroll',()=>{if(tk)return;tk=requestAnimationFrame(()=>{tk=0;
+  const m=R.scrollHeight-innerHeight;R.style.setProperty('--p',m>0?Math.min(1,scrollY/m):0)})},{passive:true});
+
+/* active nav */
+const links=$$('.nl a');
+$$('section').forEach(s=>new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('on',a.getAttribute('href')==='#'+s.id))}),{rootMargin:'-45% 0px -50% 0px'}).observe(s));
+
+/* reveal + count-up */
+function count(el){const to=+el.dataset.to,dec=+el.dataset.dec||0,suf=el.dataset.suf||'',t0=performance.now();
+  (function f(t){const k=Math.min(1,(t-t0)/1400),v=to*(1-Math.pow(1-k,3));el.textContent=v.toFixed(dec)+(k===1?suf:'');if(k<1)requestAnimationFrame(f)})(t0)}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;e.target.classList.add('on');
+  e.target.querySelectorAll('.num').forEach(count);io.unobserve(e.target)}),{threshold:.2});
+$$('.rv').forEach(e=>io.observe(e));
+
+/* hero word scramble */
+(function(){const el=$('#scr'),T=el.dataset.t,C='!<>-_/[]{}=+*^?#01';if(calm)return;let f=0;
+  setTimeout(function r(){el.textContent=[...T].map((c,i)=>c===' '?' ':(i<f/1.6?c:C[Math.random()*C.length|0])).join('');
+    if(f++<T.length*1.6+2)setTimeout(r,38);else el.textContent=T},500)})();
+
+/* tilt + cursor glow */
+$$('.tilt').forEach(c=>{
+  c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;
+    c.style.setProperty('--mx',x+'px');c.style.setProperty('--my',y+'px');
+    if(fine&&!calm){c.style.setProperty('--rx',((y/r.height-.5)*-7).toFixed(2)+'deg');c.style.setProperty('--ry',((x/r.width-.5)*7).toFixed(2)+'deg')}});
+  c.addEventListener('pointerleave',()=>{c.style.setProperty('--rx','0deg');c.style.setProperty('--ry','0deg')})});
+
+/* magnetic buttons */
+if(fine&&!calm)$$('.mag').forEach(b=>{
+  b.addEventListener('pointermove',e=>{const r=b.getBoundingClientRect();
+    b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.28}px,${(e.clientY-r.top-r.height/2)*.35}px)`});
+  b.addEventListener('pointerleave',()=>b.style.transform='')});
+
+/* custom cursor */
+if(fine){const d=$('#cd'),r=$('#cr');let x=0,y=0,rx=0,ry=0;
+  addEventListener('pointermove',e=>{x=e.clientX;y=e.clientY;d.style.transform=`translate(${x}px,${y}px)`});
+  addEventListener('pointerover',e=>r.classList.toggle('h',!!e.target.closest('a,button')));
+  (function l(){rx+=(x-rx)*.16;ry+=(y-ry)*.16;r.style.transform=`translate(${rx}px,${ry}px)`;requestAnimationFrame(l)})()}
+
+/* hero motion graphic: drifting network that reacts to the mouse */
+(function(){const cv=$('#cv'),g=cv.getContext('2d');let W,H,P=[],m={x:-999,y:-999},on=true;
+  function size(){const d=Math.min(devicePixelRatio||1,1.5);W=cv.clientWidth;H=cv.clientHeight;cv.width=W*d;cv.height=H*d;g.setTransform(d,0,0,d,0,0);
+    P=Array.from({length:W<700?28:58},()=>({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.35,vy:(Math.random()-.5)*.35}))}
+  size();addEventListener('resize',size);
+  $('#home').addEventListener('pointermove',e=>{const r=cv.getBoundingClientRect();m.x=e.clientX-r.left;m.y=e.clientY-r.top});
+  $('#home').addEventListener('pointerleave',()=>{m.x=m.y=-999});
+  new IntersectionObserver(e=>on=e[0].isIntersecting).observe(cv);
+  function frame(){g.clearRect(0,0,W,H);g.fillStyle=g.strokeStyle=ac;
+    for(const p of P){const dx=p.x-m.x,dy=p.y-m.y,q=dx*dx+dy*dy;if(q<22000){p.vx+=dx/Math.sqrt(q+1)*.03;p.vy+=dy/Math.sqrt(q+1)*.03}
+      p.vx*=.995;p.vy*=.995;p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>W)p.vx*=-1;if(p.y<0||p.y>H)p.vy*=-1;
+      g.globalAlpha=.55;g.beginPath();g.arc(p.x,p.y,1.8,0,6.3);g.fill()}
+    for(let i=0;i<P.length;i++)for(let j=i+1;j<P.length;j++){const a=P[i],b=P[j],dx=a.x-b.x,dy=a.y-b.y,q=dx*dx+dy*dy;
+      if(q<16000){g.globalAlpha=(1-q/16000)*.28;g.beginPath();g.moveTo(a.x,a.y);g.lineTo(b.x,b.y);g.stroke()}}}
+  function loop(){requestAnimationFrame(loop);if(on&&!document.hidden)frame()}
+  calm?frame():loop()})();
+</script>
+</body>
+</html>
