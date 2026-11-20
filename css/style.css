@@ -1,0 +1,45 @@
+:root {
+    --bg: #f3f6f8;
+    --ink: #14202b;
+    --muted: #536472;
+    --line: #cdd8df;
+    --accent: #1f5eff;
+    --head: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1a24; --ink: #e8eef3; --muted: #93a5b3; --line: #263747; --accent: #7aa2ff; }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 400 1.05rem/1.65 var(--body); }
+  a { color: var(--accent); text-underline-offset: 3px; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+  
+  .layout { max-width: 1040px; margin: 0 auto; padding: 4rem 1.5rem; display: grid; gap: 3rem; grid-template-columns: 1fr; }
+  @media (min-width: 860px) {
+    .layout { grid-template-columns: 280px 1fr; gap: 5rem; }
+    aside { position: sticky; top: 4rem; align-self: start; }
+  }
+  
+  h1 { font: 800 clamp(2.6rem, 6vw, 3.6rem)/1.02 var(--head); letter-spacing: -0.03em; margin: 0 0 .75rem; }
+  h2 { font: 600 1.5rem/1.2 var(--head); margin: 0 0 1.25rem; }
+  .role { color: var(--muted); margin: 0 0 1.5rem; }
+  .links { list-style: none; padding: 0; margin: 0 0 1.5rem; display: grid; gap: .35rem; }
+  .btn { display: inline-block; padding: .6rem 1.1rem; background: var(--accent); color: var(--bg); font-weight: 500; text-decoration: none; border-radius: 6px; }
+  
+  main > section { margin-bottom: 4rem; }
+  .intro { max-width: 60ch; }
+  
+  .project { display: grid; gap: .25rem; padding: 1.5rem 0; border-top: 1px solid var(--line); }
+  .project:last-child { border-bottom: 1px solid var(--line); }
+  .project h3 { font: 600 1.25rem/1.3 var(--head); margin: 0; }
+  .project p { margin: 0; max-width: 62ch; }
+  .stack { color: var(--muted); font-size: .95rem; }
+  .project .row { display: flex; gap: 1.25rem; margin-top: .5rem; }
+  
+  .skills { display: flex; flex-wrap: wrap; gap: .5rem; list-style: none; padding: 0; margin: 0; }
+  .skills li { padding: .25rem .8rem; border: 1px solid var(--line); border-radius: 999px; font-size: .95rem; }
+  footer { color: var(--muted); font-size: .9rem; }
+  
